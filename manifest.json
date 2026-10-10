@@ -1,0 +1,8 @@
+{
+  "name":"Dead Ahead Debug",
+  "short_name":"DA Debug",
+  "start_url":"./index.html",
+  "display":"standalone",
+  "background_color":"#0e0e13",
+  "theme_color":"#15151b"
+}

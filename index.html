@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#15151b">
+  <title>Dead Ahead Debug</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header>
+      <div>
+        <h1>DEAD AHEAD DEBUG</h1>
+        <p>Тестовая панель экономики</p>
+      </div>
+      <span class="badge">DEBUG</span>
+    </header>
+
+    <section id="currencies" class="grid"></section>
+
+    <button id="addAll" class="primary">+1000 КО ВСЕМ</button>
+    <button id="reset" class="secondary">Сбросить</button>
+    <button id="launch" class="secondary">Запустить игру</button>
+
+    <section class="log">
+      <h2>Журнал</h2>
+      <pre id="log"></pre>
+    </section>
+  </main>
+  <script src="currencies.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
