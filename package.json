@@ -4,7 +4,8 @@
   "private": true,
   "description": "Dead Ahead Debug Web",
   "scripts": {
-    "build": "echo Web assets are static"
+    "build": "echo Web assets are static",
+    "build": "mkdir -p www && cp index.html style.css app.js currencies.js manifest.json www/"
   },
   "dependencies": {
     "@capacitor/core": "7.4.3"
